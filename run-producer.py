@@ -32,17 +32,17 @@ import monica_run_lib as Mrunlib
 PATHS = {
      # adjust the local path to your environment
     "seserman": {
-        "include-file-base-path": "D:/Articles/Rezaei_DataAggregation",
+        "include-file-base-path": "data/params/",
         "path-to-climate-dir": "/Climate/1Km/", # local path
         "monica-path-to-climate-dir": "/Climate/1Km/", 
-        "path-to-data-dir": "./data_KE/", 
+        "path-to-data-dir": "./data/", 
         "path-debug-write-folder": "./debug-out/",
     },
     "berg": {
-        "include-file-base-path": "data_KE/params/",
-        "path-to-climate-dir": "/home/berg/Desktop/diana/BW_ModelInputs_Scaling/Climate/1Km/CL_BW/", # local path
-        "monica-path-to-climate-dir": "/home/berg/Desktop/diana/BW_ModelInputs_Scaling/Climate/1Km/CL_BW/", 
-        "path-to-data-dir": "data_KE/", 
+        "include-file-base-path": "data/params/",
+        "path-to-climate-dir": "/home/berg/GitHub/Ehsan_data_aggregation_paper/BW_ModelInputs_Scaling/Climate/1Km/CL_BW/", # local path
+        "monica-path-to-climate-dir": "/home/berg/GitHub/Ehsan_data_aggregation_paper/BW_ModelInputs_Scaling/Climate/1Km/CL_BW/", 
+        "path-to-data-dir": "data/", 
         "path-debug-write-folder": "debug-out/",
     },
     "remoteProducer-remoteMonica": {

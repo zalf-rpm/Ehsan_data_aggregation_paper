@@ -1,3 +1,6 @@
+out
+BW_ModelInputs_Scaling
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
